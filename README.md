@@ -1,5 +1,5 @@
 # Radio
-Design a radio, using different buttons like scan on and scan off;
+Designed a radio, using different buttons like scan on and scan off;
 A miniature portable FM radio has three controls. An on/off switch turns the device on and off. Tuning is controlled by two buttons scan and reset which operate as follows. When the radio is turned on or reset is pressed, the radio is tuned to the top frequency of the FM band (108 MHz). When scan is pressed, the radio scans towards the bottom of the band (88 MHz). It stops scanning when it locks on to a station or it reaches the bottom (end). If the radio is currently tuned to a station and scan is pressed then it starts to scan from the frequency of that station towards the bottom. Similarly, when reset is pressed the receiver tunes to the top. Using the alphabet {on, off, scan, reset, lock, end}, model the FM radio as a java program.
 I have also designed the FSP for the above: 
 RADIO = OFF, 
